@@ -1,2 +1,2 @@
-# PE_Fundementals.Proj_1
-Project 1 - Requirements -> Design
+# Program Engineering Fundamentals Project 1
+AlcoholicNerds : Sagie Baram, Alon Ben, David Charon Zade, Ariel Turchinsky
