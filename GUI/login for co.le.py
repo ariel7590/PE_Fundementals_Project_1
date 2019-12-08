@@ -1,12 +1,10 @@
 from tkinter import *
 
-from Tests import Tests
-from files import Files
-from Questions import Question
-from Courses import Course
-from managment import Management
-
-
+from .Courses import Course
+from .Subjects import Question
+from .Tests import Tests
+from .managment import Management
+from .files import Files
 my_files = Files()
 my_management = Management()
 my_tests = Tests()
@@ -44,7 +42,6 @@ class Login:
     def my_exams_adder(self):
 
 
-        #מיפה אין לי כבר כוח לGUI
         key = int(input('which format would you like?\npress 1 for docx.\npress 2 for pdf\npress 3 for jpeg'))
         if key == 1:
             my_tests.add_element(my_files.add_docx_file())

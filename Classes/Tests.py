@@ -1,5 +1,6 @@
 class Tests:
     def __init__(self, test=0):
+        self.exam = None
         self.docx_test = []
         self.pdf_test = []
         self.jpeg_test = []
